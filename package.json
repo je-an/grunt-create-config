@@ -1,0 +1,43 @@
+{
+  "name": "grunt-create-config",
+  "description": "The best Grunt plugin ever.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jerem/grunt-create-config",
+  "author": {
+    "name": "je-an",
+    "email": "mail@jeremiasandris.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jerem/grunt-create-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jerem/grunt-create-config/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jerem/grunt-create-config/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "tasks/create_config.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "jquery-extend": "^2.0.3"
+  }
+}
